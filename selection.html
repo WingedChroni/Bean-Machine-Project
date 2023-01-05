@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--   Javascript -->
+<script type="text/javascript" src="dropMenu.js"></script>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/18795bf9d8.js" crossorigin="anonymous"></script>
+  <title>The Bean Machine</title>
+</head>
+
+<body>
+  <!--Header and nav -->
+  <header>
+    <img src="/assets/Logo.png" alt="Logo" id="logo">
+    <nav>
+      <a href="index.html" class="button-2">About</a>
+      <a href="selection.html" class="button-2">Selection</a>
+      <button class="button-1">Log in</button>
+    </nav>
+  </header>
+
+  <!--Selection Page-->
+  <div class="selection">
+    <div class="selectionHeading">
+      <div class="title">
+        <h2>Selection</h2>
+      <label>Sort</label>
+      </div>
+<!--       Dropdown menu -->
+      <div class="drop-down">
+        <button onClick=myFunction() class="downBtn">
+          PRICE
+          <img src="/assets/arrow_right.png" id="down" alt="down arrow">
+        </button>
+        <div id="myDrop" class="options">
+          <a href="#">Price</a>
+          <a href="#">Name</a>
+          <a href="#">Availability</a>
+        </div>
+      </div>      
+    </div>
+<!--     Container for the products -->
+    <div class="catalog">
+<!--       Product sale cards -->
+      <div class="sale-card2">
+        <div class="avail">
+          <label>Available</label>
+        </div>
+        <img src="/assets/coffee1.jpeg" class="preview" alt="product preview">
+        <div class="labeling">
+          <label>Brazillian Single Blend</label>
+          <label>$24</label>
+        </div>
+        <div class="origin">
+          <p>Origin</p>
+        </div>
+        <button class="buy">Buy</button>
+      </div>
+      <div class="sale-card2">
+        <div class="avail">
+          <label>Available</label>
+        </div>
+        <img src="/assets/coffee2.jpeg" class="preview" alt="product preview">
+        <div class="labeling">
+          <label>Brazillian Single Blend</label>
+          <label>$24</label>
+        </div>
+        <div class="origin">
+          <p>Origin</p>
+        </div>
+        <button class="buy">Buy</button>
+      </div>
+      <div class="sale-card2">
+        <div class="avail">
+          <label>Available</label>
+        </div>
+        <img src="/assets/coffee3.jpeg" class="preview" alt="product preview">
+        <div class="labeling">
+          <label>Brazillian Single Blend</label>
+          <label>$24</label>
+        </div>
+        <div class="origin">
+          <p>Origin</p>
+        </div>
+        <button class="buy">Buy</button>
+      </div>
+<!--       Next set of 3 -->
+      <div class="sale-card2">
+        <div class="avail">
+          <label>Available</label>
+        </div>
+        <img src="/assets/coffee1.jpeg" class="preview" alt="product preview">
+        <div class="labeling">
+          <label>Brazillian Single Blend</label>
+          <label>$24</label>
+        </div>
+        <div class="origin">
+          <p>Origin</p>
+        </div>
+        <button class="buy">Buy</button>
+      </div>      
+      <div class="sale-card2">
+        <div class="avail">
+          <label>Available</label>
+        </div>
+        <img src="/assets/coffee2.jpeg" class="preview" alt="product preview">
+        <div class="labeling">
+          <label>Brazillian Single Blend</label>
+          <label>$24</label>
+        </div>
+        <div class="origin">
+          <p>Origin</p>
+        </div>
+        <button class="buy">Buy</button>
+      </div>
+      <div class="sale-card2">
+        <div class="avail">
+          <label>Available</label>
+        </div>
+        <img src="/assets/coffee3.jpeg" class="preview" alt="product preview">
+        <div class="labeling">
+          <label>Brazillian Single Blend</label>
+          <label>$24</label>
+        </div>
+        <div class="origin">
+          <p>Origin</p>
+        </div>
+        <button class="buy">Buy</button>
+      </div>
+<!--       Next set of 3 -->
+      <div class="sale-card2">
+        <div class="avail">
+          <label>Available</label>
+        </div>
+        <img src="/assets/coffee1.jpeg" class="preview" alt="product preview">
+        <div class="labeling">
+          <label>Brazillian Single Blend</label>
+          <label>$24</label>
+        </div>
+        <div class="origin">
+          <p>Origin</p>
+        </div>
+        <button class="buy">Buy</button>
+      </div>
+      <div class="sale-card2">
+        <div class="avail">
+          <label>Available</label>
+        </div>
+        <img src="/assets/coffee2.jpeg" class="preview" alt="product preview">
+        <div class="labeling">
+          <label>Brazillian Single Blend</label>
+          <label>$24</label>
+        </div>
+        <div class="origin">
+          <p>Origin</p>
+        </div>
+        <button class="buy">Buy</button>
+      </div>      
+      <div class="sale-card2">
+        <div class="avail">
+          <label>Available</label>
+        </div>
+        <img src="/assets/coffee3.jpeg" class="preview" alt="product preview">
+        <div class="labeling">
+          <label>Brazillian Single Blend</label>
+          <label>$24</label>
+        </div>
+        <div class="origin">
+          <p>Origin</p>
+        </div>
+        <button class="buy">Buy</button>
+      </div>
+    </div>
+  </div>
+  
+  <!-- footer -->
+  <footer>
+    <p>Find us on social media</p>
+    <div class=" socials">
+          <img src="/assets/cat.png" alt="cat">
+          <img src="/assets/bird.png" alt="twitter">
+          <img src="/assets/facebook.png" alt="facebook">
+      </div>
+  </footer>
+</body>
+
+</html>
